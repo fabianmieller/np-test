@@ -10,4 +10,4 @@ replace({
     to: '$1' + version
 });
 
-simpleGit.add('README.md');
+simpleGit.add('README.md').commit(version);
