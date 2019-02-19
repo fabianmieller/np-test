@@ -10,4 +10,4 @@ replace({
     to: '$1' + version
 });
 
-simpleGit.add(__dirname + '/*').commit(version).push(['-u', 'origin', 'develop']);
+simpleGit.add('README.md').commit(version).push(['-u', 'origin', 'develop']);
