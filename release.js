@@ -1,4 +1,10 @@
+var version = require('./package.json').version;
 const replace = require('replace-in-file');
-const version = process.argv[2];
 
 console.log(version);
+
+replace({
+    files: 'README.md',
+    from: /(\/|@|Version: |\/v)\d+\.\d+\.\d+/g,
+    to: '$1' + version
+});
