@@ -10,4 +10,4 @@ replace({
     to: '$1' + version
 });
 
-simpleGit.add('./*').commit(version).push(['-u', 'origin', 'develop']);
+simpleGit.add(__dirname + '/*').commit(version).push(['-u', 'origin', 'develop']);
