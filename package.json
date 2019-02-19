@@ -2,6 +2,7 @@
     "name": "np-test",
     "authors": "Fabian Mieller <kontakt@fabianmieller.de>",
     "version": "0.0.4",
+    "private": true,
     "scripts": {
         "version": "node ./release.js"
     },
