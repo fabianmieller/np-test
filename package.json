@@ -2,8 +2,11 @@
     "name": "np-test",
     "authors": "Fabian Mieller <kontakt@fabianmieller.de>",
     "version": "0.0.2",
-    "scripts": {},
+    "scripts": {
+        "version": "node ./release.js"
+    },
     "dependencies": {
-        "np": "^4.0.2"
+        "np": "^4.0.2",
+        "replace-in-file": "^3.4.3"
     }
 }
