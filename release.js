@@ -1,4 +1,4 @@
-var version = require('./package.json').version;
+const version = require('./package.json').version;
 const simpleGit = require('simple-git');
 const replace = require('replace-in-file');
 
