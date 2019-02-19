@@ -1,0 +1,13 @@
+/assets/*.css
+/node_modules
+/results
+/vendor
+.idea
+.nuxt
+.php_cs.cache
+.vscode
+.history
+.DS_Store
+**/*.min.js
+package-lock.json
+yarn-error.log

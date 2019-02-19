@@ -1,0 +1,9 @@
+{
+    "name": "np-test",
+    "authors": "Fabian Mieller <kontakt@fabianmieller.de>",
+    "version": "0.0.1",
+    "scripts": {},
+    "dependencies": {
+        "np": "^4.0.2"
+    }
+}
