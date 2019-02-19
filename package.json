@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "np": "^4.0.2",
-        "replace-in-file": "^3.4.3"
+        "replace-in-file": "^3.4.3",
+        "simple-git": "^1.107.0"
     }
 }
