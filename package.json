@@ -4,8 +4,8 @@
     "version": "0.0.17",
     "private": true,
     "scripts": {
-        "version": "node ./release.js"
-    },
+        "version": "node ./release.js && git add CHANGELOG.md"
+        },
     "dependencies": {
         "np": "^4.0.2",
         "replace-in-file": "^3.4.3",
