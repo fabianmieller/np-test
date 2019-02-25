@@ -4,7 +4,7 @@
     "version": "0.1.1",
     "private": true,
     "scripts": {
-        "version": "node ./release.js && git add README.md"
+        "version": "node ./release.js && touch dist/dist.js && git add -A"
     },
     "dependencies": {
         "np": "^4.0.2",
